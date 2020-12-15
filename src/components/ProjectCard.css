@@ -1,0 +1,19 @@
+.projectCard {
+  background-color: #ff5d73;
+  height: 90%;
+  /* width: 25%; */
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+.projectCard:hover {
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,1), 0 6px 20px 0 rgba(0,0,0,0.1)
+}
+
+.projectCardDiv {
+  top: 50%;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, -70%);
+}

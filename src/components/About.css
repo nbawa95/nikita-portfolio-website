@@ -1,0 +1,47 @@
+.main {
+  position: absolute;
+  color: #ff5d73;
+  height: 100vh;
+  width: 100%;
+}
+
+.pageTitle {
+  position: absolute;
+  font-size: 35vh;
+  bottom: 0;
+  opacity: 7%;
+}
+
+.aboutContainer {
+  color: grey;
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  left: 55%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  /* box-shadow: 5px 10px 18px #888888; */
+}
+
+.resumeButton {
+    display:inline-block;
+    padding:0.35em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    text-decoration:none;
+    font-weight:300;
+    color: #ff5d73 !important;
+    text-align:center;
+    transition: all 0.7s;
+    border: 1px solid #ff5d73;
+    background-color: transparent;
+    letter-spacing: 3px;
+
+}
+
+.resumeButton:hover {
+    text-decoration:none;
+    color: white !important;
+    background-color: #ff5d73;
+
+}
