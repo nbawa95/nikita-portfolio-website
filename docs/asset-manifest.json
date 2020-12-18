@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f4f90000.chunk.css",
+    "main.js": "/static/js/main.33524663.chunk.js",
+    "main.js.map": "/static/js/main.33524663.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.940ecff4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.940ecff4.js.map",
+    "static/js/2.45e3c07a.chunk.js": "/static/js/2.45e3c07a.chunk.js",
+    "static/js/2.45e3c07a.chunk.js.map": "/static/js/2.45e3c07a.chunk.js.map",
+    "static/js/3.3d4470b0.chunk.js": "/static/js/3.3d4470b0.chunk.js",
+    "static/js/3.3d4470b0.chunk.js.map": "/static/js/3.3d4470b0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.f4f90000.chunk.css.map": "/static/css/main.f4f90000.chunk.css.map",
+    "static/js/2.45e3c07a.chunk.js.LICENSE.txt": "/static/js/2.45e3c07a.chunk.js.LICENSE.txt",
+    "static/media/blueGirlDoodle.0a29f6d9.jpg": "/static/media/blueGirlDoodle.0a29f6d9.jpg",
+    "static/media/fallDoodle.e6658a6f.jpg": "/static/media/fallDoodle.e6658a6f.jpg",
+    "static/media/fishbowlSS.960e43cf.png": "/static/media/fishbowlSS.960e43cf.png",
+    "static/media/github.e7834d97.png": "/static/media/github.e7834d97.png",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
+    "static/media/mountainsDoodle.a1fece2c.jpg": "/static/media/mountainsDoodle.a1fece2c.jpg",
+    "static/media/nikita-illustration.b096f75f.png": "/static/media/nikita-illustration.b096f75f.png",
+    "static/media/resume2020.c191c0e3.pdf": "/static/media/resume2020.c191c0e3.pdf",
+    "static/media/scrollDown.eef4c7ad.png": "/static/media/scrollDown.eef4c7ad.png",
+    "static/media/star-nikita-light.bee68927.png": "/static/media/star-nikita-light.bee68927.png",
+    "static/media/tomeSS.97417b5a.png": "/static/media/tomeSS.97417b5a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.940ecff4.js",
+    "static/js/2.45e3c07a.chunk.js",
+    "static/css/main.f4f90000.chunk.css",
+    "static/js/main.33524663.chunk.js"
+  ]
+}
