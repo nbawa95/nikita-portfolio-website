@@ -14,18 +14,19 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  HashRouter
 } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <HashRouter basename="/">
       <Switch>
         <Route path="/" exact component={MainPage} />
         <Route path="/fishbowl" exact component={FishbowlProject} />
         <Route path="/tome" exact component={TomeProject} />
         <Route path="/doodles" exact component={Doodles} />
       </Switch>
-  </Router>
+  </HashRouter>
   );
 }
 

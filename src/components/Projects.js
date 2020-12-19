@@ -13,21 +13,21 @@ export default class Projects extends Component {
             projects
           </div>
           <div className="projectsContainer">
-            <a href='/fishbowl'>
+            <a href='#/fishbowl'>
               <ProjectCard
                 title="fishbowl"
                 shortDescription="a quarantine project to connect my family from around the world"
                 longDescription="insert long description here"
               />
             </a>
-            <a href='/tome'>
+            <a href='#/tome'>
             <ProjectCard
               title="tome"
               shortDescription="an interactive topic modelling visualization"
               longDescription="insert long description here"
             />
             </a>
-            <a href='/doodles'>
+            <a href='#/doodles'>
             <ProjectCard
               title="digital art"
               shortDescription="check out some of my doodles"
