@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc1fd181.chunk.css",
-    "main.js": "/static/js/main.b6d71bad.chunk.js",
-    "main.js.map": "/static/js/main.b6d71bad.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.940ecff4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.940ecff4.js.map",
-    "static/js/2.befaa288.chunk.js": "/static/js/2.befaa288.chunk.js",
-    "static/js/2.befaa288.chunk.js.map": "/static/js/2.befaa288.chunk.js.map",
-    "static/js/3.3d4470b0.chunk.js": "/static/js/3.3d4470b0.chunk.js",
-    "static/js/3.3d4470b0.chunk.js.map": "/static/js/3.3d4470b0.chunk.js.map",
+    "main.css": "/static/css/main.efcdc2c6.chunk.css",
+    "main.js": "/static/js/main.b4f22972.chunk.js",
+    "main.js.map": "/static/js/main.b4f22972.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6f0a8eeb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6f0a8eeb.js.map",
+    "static/js/2.9d421c1e.chunk.js": "/static/js/2.9d421c1e.chunk.js",
+    "static/js/2.9d421c1e.chunk.js.map": "/static/js/2.9d421c1e.chunk.js.map",
+    "static/js/3.5f5319a6.chunk.js": "/static/js/3.5f5319a6.chunk.js",
+    "static/js/3.5f5319a6.chunk.js.map": "/static/js/3.5f5319a6.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.dc1fd181.chunk.css.map": "/static/css/main.dc1fd181.chunk.css.map",
-    "static/js/2.befaa288.chunk.js.LICENSE.txt": "/static/js/2.befaa288.chunk.js.LICENSE.txt",
+    "static/css/main.efcdc2c6.chunk.css.map": "/static/css/main.efcdc2c6.chunk.css.map",
+    "static/js/2.9d421c1e.chunk.js.LICENSE.txt": "/static/js/2.9d421c1e.chunk.js.LICENSE.txt",
     "static/media/blueGirlDoodle.0a29f6d9.jpg": "/static/media/blueGirlDoodle.0a29f6d9.jpg",
     "static/media/fallDoodle.e6658a6f.jpg": "/static/media/fallDoodle.e6658a6f.jpg",
-    "static/media/fishbowlSS.960e43cf.png": "/static/media/fishbowlSS.960e43cf.png",
-    "static/media/github.e7834d97.png": "/static/media/github.e7834d97.png",
+    "static/media/fishbowlSS.399aafeb.png": "/static/media/fishbowlSS.399aafeb.png",
+    "static/media/github.a12cb469.png": "/static/media/github.a12cb469.png",
     "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
     "static/media/mountainsDoodle.a1fece2c.jpg": "/static/media/mountainsDoodle.a1fece2c.jpg",
     "static/media/nikita-illustration.b096f75f.png": "/static/media/nikita-illustration.b096f75f.png",
@@ -25,9 +25,9 @@
     "static/media/tomeSS.97417b5a.png": "/static/media/tomeSS.97417b5a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.940ecff4.js",
-    "static/js/2.befaa288.chunk.js",
-    "static/css/main.dc1fd181.chunk.css",
-    "static/js/main.b6d71bad.chunk.js"
+    "static/js/runtime-main.6f0a8eeb.js",
+    "static/js/2.9d421c1e.chunk.js",
+    "static/css/main.efcdc2c6.chunk.css",
+    "static/js/main.b4f22972.chunk.js"
   ]
 }
