@@ -2,10 +2,16 @@ import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
 import './About.css';
 import resume from './resume2020.pdf';
+import pinkTriangle from './pinkTriangle.png';
+import blackTriangle from './blackTriangle.png';
+import pinkCircle from './pinkCircle.png';
+import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
+
 
 export default class About extends Component {
   render() {
     return(
+      <ParallaxProvider>
         <div className="main">
           <div className="pageTitle">
             about
@@ -28,7 +34,29 @@ export default class About extends Component {
             </p>
             <a href={resume} target='_blank' className="resumeButton">Take a look at my resume!</a>
           </div>
+          <Parallax
+            y={[100, 0]}
+            tag="figure"
+            styleOuter={{bottom: '30%', right: '5%', position: 'absolute'}}
+          >
+            <img className="pinkTriangle" src={pinkTriangle} />
+          </Parallax>
+          <Parallax
+            x={[0, 100]}
+            tag="figure"
+            styleOuter={{bottom: '20%', right: '2%', position: 'absolute'}}
+          >
+            <img className="pinkCircle" src={pinkCircle} />
+          </Parallax>
+          <Parallax
+            y={[0, 100]}
+            tag="figure"
+            styleOuter={{bottom: '30%', right: '5%', position: 'absolute'}}
+          >
+            <img className="blackTriangle" src={blackTriangle} />
+          </Parallax>
         </div>
+        </ParallaxProvider>
     );
   }
 }

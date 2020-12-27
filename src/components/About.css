@@ -45,3 +45,45 @@
     background-color: #ff5d73;
 
 }
+
+.pinkTriangle {
+  bottom: 0;
+  right: 5%;
+}
+
+.blackTriangle {
+  bottom: 30%;
+  right: 5%;
+}
+
+.pinkCircle {
+  bottom: 10%;
+  right: 1%;
+}
+
+@media screen and (max-width: 800px) {
+  .pageTitle {
+    font-size: 10vh;
+  }
+
+  .pinkTriangle {
+    display: none;
+  }
+
+  .blackTriangle {
+    display: none;
+  }
+
+  .pinkCircle {
+    display: none;
+  }
+
+  .aboutContainer {
+    width: 80%;
+    top: 40%;
+  }
+
+  .resumeButton {
+    width: 80%;
+  }
+}

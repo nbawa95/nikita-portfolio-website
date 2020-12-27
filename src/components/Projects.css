@@ -29,3 +29,16 @@ a {
   text-decoration: none;
   width: 33%;
 }
+
+@media screen and (max-width: 800px) {
+  .projectsContainer {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+
+  .pageTitle-projects {
+    font-size: 10vh;
+  }
+}

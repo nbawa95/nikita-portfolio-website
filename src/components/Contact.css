@@ -62,3 +62,13 @@
   bottom: 0px;
   right: 0px;
 }
+
+@media screen and (max-width: 800px) {
+  .pageTitle-contact {
+    font-size: 10vh;
+  }
+
+  .nikitaPic {
+    height: 30%;
+  }
+}

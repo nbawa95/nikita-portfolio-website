@@ -3,7 +3,11 @@ import Container from 'react-bootstrap/Container';
 import ProjectCard from "./ProjectCard";
 import './Projects.css';
 import * as Scroll from 'react-scroll';
+import { Parallax, Background } from "react-parallax";
+
+
 let Link = Scroll.Link;
+
 
 export default class Projects extends Component {
   render() {
@@ -21,18 +25,18 @@ export default class Projects extends Component {
               />
             </a>
             <a href='#/tome'>
-            <ProjectCard
-              title="tome"
-              shortDescription="an interactive topic modelling visualization"
-              longDescription="insert long description here"
-            />
+              <ProjectCard
+                title="tome"
+                shortDescription="an interactive topic modelling visualization"
+                longDescription="insert long description here"
+              />
             </a>
             <a href='#/doodles'>
-            <ProjectCard
-              title="digital art"
-              shortDescription="check out some of my doodles"
-              longDescription="insert long description here"
-            />
+              <ProjectCard
+                title="digital art"
+                shortDescription="check out some of my doodles"
+                longDescription="insert long description here"
+              />
             </a>
           </div>
         </div>
