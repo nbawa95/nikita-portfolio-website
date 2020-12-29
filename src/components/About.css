@@ -79,11 +79,15 @@
   }
 
   .aboutContainer {
-    width: 80%;
-    top: 40%;
+    width: 80% !important;
+    top: 40% !important;
   }
 
   .resumeButton {
     width: 80%;
+  }
+
+  .main {
+    padding: 10px;
   }
 }

@@ -6,9 +6,11 @@ import githubIcon from './github.png';
 import emailIcon from './email.png';
 import etsyIcon from './etsy.png';
 import nikitaIllustration from './nikita-illustration.png';
-import pinkLine from './pinkLine.png';
-import dottedLine from './dottedLine.png';
+import outerRing from './outerRing.png';
+import innerRing from './innerRing.png';
+import innerCircle from './innerCircle.png';
 import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
+
 
 
 export default class Contact extends Component {
@@ -16,22 +18,29 @@ export default class Contact extends Component {
     return(
       <ParallaxProvider>
         <div className="main-contact">
+        <Parallax
+          y={[-80, 0]}
+          tag="figure"
+          styleOuter={{top: '40%', left: '15%', transform: 'translate(-50%, -50%)', position: 'absolute'}}
+        >
+          <img className="outerRing" src={outerRing} />
+        </Parallax>
+        <Parallax
+          y={[-80, -25]}
+          tag="figure"
+          styleOuter={{top: '40%', left: '15%', transform: 'translate(-50%, -50%)', position: 'absolute'}}
+        >
+          <img className="innerRing" src={innerRing} />
+        </Parallax>
+        <Parallax
+          y={[-80, -55]}
+          tag="figure"
+          styleOuter={{top: '40%', left: '15%', transform: 'translate(-50%, -50%)', position: 'absolute'}}
+        >
+          <img className="innerCircle" src={innerCircle} />
+        </Parallax>
         <div>
-          <Parallax
-            x={[0, 150]}
-            tag="figure"
-            styleOuter={{top: '35%', left: '1%', position: 'absolute'}}
-          >
-            <img src={dottedLine} />
-          </Parallax>
-          <Parallax
-            x={[0, 150]}
-            tag="figure"
-            styleOuter={{top: '34%', left: '2%', position: 'absolute'}}
-          >
-            <img className="pinkCircle" src={pinkLine} />
-          </Parallax>
-          </div>
+            </div>
             <div className="contactIcons">
               <a href='https://www.linkedin.com/in/nikitabawa/' target='_blank'>
                 <img className="pic" src={linkedInPic} />
@@ -46,30 +55,22 @@ export default class Contact extends Component {
                 <img className="pic" src={etsyIcon} />
               </a>
             </div>
-          <div>
-          <Parallax
-            x={[0, -150]}
-            tag="figure"
-            styleOuter={{bottom: '42%', right: '10%', position: 'absolute'}}
-          >
-            <img src={dottedLine} />
-          </Parallax>
-          <Parallax
-            x={[0, -150]}
-            tag="figure"
-            styleOuter={{bottom: '40%', right: '12%', position: 'absolute'}}
-          >
-            <img className="pinkCircle" src={pinkLine} />
-          </Parallax>
-          </div>
-          <div className="pageTitle-contact">
-            let's talk
-          </div>
-          <div>
-            <img className="nikitaPic" src={nikitaIllustration} />
-          </div>
+            <div>
         </div>
-        </ParallaxProvider>
+        <div className="pageTitle-contact">
+          let's talk
+        </div>
+        <div>
+        <Parallax
+          x={[40, -30]}
+          tag="figure"
+          styleOuter={{float: 'right', bottom: '0px', right: '0px', position: 'absolute'}}
+        >
+          <img className="nikitaPic" src={nikitaIllustration} />
+        </Parallax>
+        </div>
+      </div>
+      </ParallaxProvider>
     );
   }
 }

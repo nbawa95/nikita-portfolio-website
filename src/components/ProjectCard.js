@@ -14,7 +14,7 @@ export default class ProjectCard extends Component {
         className="parallaxContainer"
         style={{
           width: "100%",
-          height: "90%"
+          height: "80%"
         }}
         renderLayer={(percentage) => (
           <div>

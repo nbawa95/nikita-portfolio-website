@@ -33,12 +33,16 @@ a {
 @media screen and (max-width: 800px) {
   .projectsContainer {
     flex-direction: column;
-    height: 100%;
+    height: unset;
     width: 100%;
     position: absolute;
   }
 
   .pageTitle-projects {
     font-size: 10vh;
+  }
+
+  a {
+    width: unset;
   }
 }

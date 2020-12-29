@@ -42,9 +42,9 @@ export default class About extends Component {
             <img className="pinkTriangle" src={pinkTriangle} />
           </Parallax>
           <Parallax
-            x={[0, 100]}
+            x={[0, -100]}
             tag="figure"
-            styleOuter={{bottom: '20%', right: '2%', position: 'absolute'}}
+            styleOuter={{bottom: '20%', right: '0%', position: 'absolute'}}
           >
             <img className="pinkCircle" src={pinkCircle} />
           </Parallax>

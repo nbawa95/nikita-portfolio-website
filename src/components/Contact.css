@@ -42,12 +42,12 @@
   top: 50%;
   left: 50%;
   position: relative;
-  transform: translate(-150px, -50px);
+  transform: translate(-150px, -150px);
 }
 
 .pic {
   height: 50px;
-  padding-left: 20px;
+  padding: 20px;
 }
 
 .pic:hover {
@@ -56,11 +56,26 @@
 }
 
 .nikitaPic {
-  height: 650px;
-  position: absolute;
-  float: right;
+  height: 600px;
+  position: relative;
+  /* float: right;
   bottom: 0px;
-  right: 0px;
+  right: 0px; */
+}
+
+.outerRing {
+  /* top: 0;
+  left: 5%; */
+}
+
+.innerRing {
+  /* top: 30%;
+  left: 5%; */
+}
+
+.innerCircle {
+  /* top: 10%;
+  left: 1%; */
 }
 
 @media screen and (max-width: 800px) {
@@ -69,6 +84,13 @@
   }
 
   .nikitaPic {
-    height: 30%;
+    display: none;
+  }
+
+  .contactIcons {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 70%
   }
 }
