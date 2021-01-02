@@ -1,0 +1,13 @@
+.footer-main {
+  background-color: black;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footerContainer {
+  float: right;
+  background-color: black;
+}

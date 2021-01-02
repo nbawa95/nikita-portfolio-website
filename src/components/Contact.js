@@ -5,10 +5,14 @@ import linkedInPic from './linkedin.png';
 import githubIcon from './github.png';
 import emailIcon from './email.png';
 import etsyIcon from './etsy.png';
+import behanceIcon from './behance.png';
 import nikitaIllustration from './nikita-illustration.png';
 import outerRing from './outerRing.png';
 import innerRing from './innerRing.png';
 import innerCircle from './innerCircle.png';
+import pinkSquare from './pinkSquare.png';
+import blackTriangle from './blackTriangle.png';
+import flippedPinkCircle from './flippedPinkCircle.png';
 import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 
 
@@ -21,23 +25,23 @@ export default class Contact extends Component {
         <Parallax
           y={[-80, 0]}
           tag="figure"
-          styleOuter={{top: '40%', left: '15%', transform: 'translate(-50%, -50%)', position: 'absolute'}}
+          styleOuter={{top: '30%', left: '15%', transform: 'translate(-50%, -50%)', position: 'absolute'}}
         >
-          <img className="outerRing" src={outerRing} />
+          <img className="outerRing" src={pinkSquare} />
         </Parallax>
         <Parallax
-          y={[-80, -25]}
+          y={[0, -50]}
           tag="figure"
-          styleOuter={{top: '40%', left: '15%', transform: 'translate(-50%, -50%)', position: 'absolute'}}
+          styleOuter={{top: '35%', left: '15%', transform: 'translate(-50%, -50%)', position: 'absolute'}}
         >
-          <img className="innerRing" src={innerRing} />
+          <img className="innerRing" src={blackTriangle} />
         </Parallax>
         <Parallax
-          y={[-80, -55]}
+          x={[0, -70]}
           tag="figure"
-          styleOuter={{top: '40%', left: '15%', transform: 'translate(-50%, -50%)', position: 'absolute'}}
+          styleOuter={{top: '35%', left: '13%', transform: 'translate(-50%, -50%)', position: 'absolute'}}
         >
-          <img className="innerCircle" src={innerCircle} />
+          <img className="innerCircle" src={flippedPinkCircle} />
         </Parallax>
         <div>
             </div>
@@ -51,8 +55,8 @@ export default class Contact extends Component {
               <a href='mailto:nbawa95@gmail.com' target='_blank'>
                 <img className="pic" src={emailIcon} />
               </a>
-              <a href='https://www.etsy.com/shop/WonderCraftsCo' target='_blank'>
-                <img className="pic" src={etsyIcon} />
+              <a href='https://www.behance.net/nikitab5' target='_blank'>
+                <img className="pic" src={behanceIcon} />
               </a>
             </div>
             <div>

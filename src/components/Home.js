@@ -16,7 +16,7 @@ export default class Home extends Component {
         <div id='main' style={{backgroundColor: '#000000', fontFamily: 'Pier Sans', height: '100%'}}>
           <div className="centered">
               <span style={{color: '#ff5d73'}}>hi, </span><span>I'm </span>
-              <Typed strings={['a computer science major.', 'an aspiring web designer.', 'a yellow jacket.', 'nikita bawa.']}
+              <Typed strings={['a computer science major.', 'an aspiring digital product designer.', 'a Georgia Tech alumn (go jackets!).', 'nikita bawa.']}
                    typeSpeed={40}
                    backSpeed={20}
                    backDelay={2000}

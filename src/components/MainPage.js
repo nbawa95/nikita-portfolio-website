@@ -5,6 +5,7 @@ import Home from "./Home";
 import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import Footer from "./Footer";
 import { Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 import './MainPage.css';
 
